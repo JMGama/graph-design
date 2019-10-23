@@ -1,10 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { Grid } from "./components/Grid";
 
 function App() {
   return (
     <div className="App">
+      <Grid></Grid>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
